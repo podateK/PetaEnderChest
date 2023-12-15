@@ -1,0 +1,4 @@
+name: PetaEnderChest
+version: '${project.version}'
+main: me.petaenderchest.PetaEnderChest
+api-version: '1.18'
