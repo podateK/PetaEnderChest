@@ -1,4 +1,16 @@
 name: PetaEnderChest
 version: '${project.version}'
 main: me.petaenderchest.PetaEnderChest
-api-version: '1.18'
+api-version: '1.16'
+description: Plugin na enderchesty stworzony przez podateK_
+author: podateK_
+website: https://pl.hikemc.eu
+commands:
+  ec:
+    description: Komenda do otworzenia gui z enderchestami
+    aliases: [enderchest, otworzec]
+    permission: petaenderchest.open
+  ecsee:
+    aliases: [sprawdzec, zobaczecchuja, pedofil]
+    description: Komenda na sprawdzanie enderchesta innych graczy!
+    permission: petaenderchest.see.other
